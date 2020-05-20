@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="661.0" prefWidth="960.0" style="-fx-background-color: #2E3348;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.cashGiverOtherAmountInvalidnumberController">
+   <children>
+      <Button fx:id="tryAgainButton" layoutX="355.0" layoutY="537.0" mnemonicParsing="false" prefHeight="67.0" prefWidth="258.0" text="TRY AGAIN" textFill="#2cb510">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="36.0" />
+         </font>
+      </Button>
+      <Label layoutX="99.0" layoutY="33.0" prefHeight="100.0" prefWidth="762.0" text="WRONG VALUE FOR CASH WITHDRAWAL" textFill="RED">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="36.0" layoutY="406.0" prefHeight="43.0" prefWidth="639.0" text="[TO TRY AGAIN  PLEASE CLICK ON " textFill="#fafafa">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="655.0" layoutY="406.0" prefHeight="43.0" prefWidth="258.0" text=" &lt;TRY AGAIN&gt;" textFill="#2cb510">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="903.0" layoutY="406.0" prefHeight="43.0" prefWidth="20.0" text="]" textFill="#fafafa">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="59.0" layoutY="197.0" prefHeight="43.0" prefWidth="850.0" text="ATM'S HAVE BANKNOTES IN DENOMINATIONS:" textFill="#fafafa">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="135.0" layoutY="240.0" prefHeight="43.0" prefWidth="695.0" text="1000, 2000, 5000, 10000, 20000 TENGE" textFill="#fafafa">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="36.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

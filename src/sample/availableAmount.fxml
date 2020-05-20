@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="661.0" prefWidth="960.0" style="-fx-background-color: #2E3348;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.availableAmountController">
+   <children>
+      <Label layoutX="188.0" layoutY="26.0" prefHeight="112.0" prefWidth="582.0" style="-fx-background-color: #fafafa;" text="PLEASE CHOOSE">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="64.0" />
+         </font>
+      </Label>
+      <Button fx:id="checkYesButton" layoutX="542.0" layoutY="280.0" mnemonicParsing="false" prefHeight="88.0" prefWidth="403.0" text="PRINT CHECK">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="48.0" />
+         </font>
+      </Button>
+      <Button fx:id="checkNoButton" layoutX="542.0" layoutY="443.0" mnemonicParsing="false" prefHeight="88.0" prefWidth="403.0" text="IN SCREEN">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="48.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="661.0" prefWidth="960.0" style="-fx-background-color: #2E3348;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.aainScreen">
+   <children>
+      <Label layoutX="186.0" layoutY="95.0" prefHeight="50.0" prefWidth="587.0" style="-fx-background-color: #fafafa;" text="AVAILABALE AMOUNT IN CARD">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="36.0" />
+         </font>
+      </Label>
+      <Text fx:id="textFieldBalance" fill="#fafafa" layoutX="373.0" layoutY="260.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="269.33673095703125">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="36.0" />
+         </font>
+      </Text>
+      <Button fx:id="cancelAAButton" layoutX="656.0" layoutY="488.0" mnemonicParsing="false" prefHeight="66.0" prefWidth="234.0" text="CANCEL" textFill="RED">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="36.0" />
+         </font>
+      </Button>
+      <Label layoutX="180.0" layoutY="226.0" prefHeight="43.0" prefWidth="211.0" text="BALANCE:" textFill="#fafafa">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="36.0" />
+         </font>
+      </Label>
+      <Text fx:id="textCurrency" fill="#fafafa" layoutX="698.0" layoutY="267.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="149.33673095703125">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="36.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

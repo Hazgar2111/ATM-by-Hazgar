@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="661.0" prefWidth="960.0" style="-fx-background-color: #2E3348;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.rusCashGiverOtherAmount">
+   <children>
+      <Label layoutX="124.0" layoutY="85.0" prefHeight="44.0" prefWidth="710.0" style="-fx-background-color: #fafafa;" text="ВВЕДИТЕ СУММУ ДЛЯ СНЯТИЯ НАЛИЧНЫХ">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="228.0" layoutY="329.0" prefHeight="43.0" prefWidth="973.0" text="ПОСЛЕ ВВОДА НАЖМИТЕ" textFill="#fafafa">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="30.0" />
+         </font>
+      </Label>
+      <Label layoutX="592.0" layoutY="329.0" prefHeight="43.0" prefWidth="185.0" text=" &lt;ВВОД&gt;" textFill="#2cb510">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="36.0" />
+         </font>
+      </Label>
+      <Button fx:id="cancelOtherAmountButton" layoutX="661.0" layoutY="579.0" mnemonicParsing="false" prefHeight="66.0" prefWidth="234.0" text="ОТМЕНА" textFill="RED">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="36.0" />
+         </font>
+      </Button>
+      <Label layoutX="168.0" layoutY="426.0" prefHeight="43.0" prefWidth="898.0" text="[ДЛЯ ОТЕНЫ НАЖМИТЕ                       ]" textFill="#fafafa">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="570.0" layoutY="426.0" prefHeight="43.0" prefWidth="208.0" text=" &lt;ОТМЕНА&gt;" textFill="RED">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="36.0" />
+         </font>
+      </Label>
+      <TextField fx:id="textAmount" layoutX="386.0" layoutY="206.0" prefHeight="62.0" prefWidth="186.0" promptText="------------------">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="36.0" />
+         </font>
+      </TextField>
+      <Button fx:id="enterOtherAmountButton" layoutX="661.0" layoutY="500.0" mnemonicParsing="false" prefHeight="66.0" prefWidth="234.0" text="ВВОД" textFill="#2cb510">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="36.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

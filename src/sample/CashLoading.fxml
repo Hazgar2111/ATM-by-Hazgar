@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="661.0" prefWidth="960.0" style="-fx-background-color: #2E3348;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.cashLoadingController">
+   <children>
+      <Label layoutX="35.0" layoutY="38.0" prefHeight="56.0" prefWidth="889.0" style="-fx-background-color: #fafafa;" text="YOUR OPERATION COMPLETED SUCCESSFULLY" textFill="GREEN">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="36.0" />
+         </font>
+      </Label>
+      <Button fx:id="cancelButton" layoutX="654.0" layoutY="529.0" mnemonicParsing="false" prefHeight="67.0" prefWidth="230.0" text="EXIT" textFill="RED">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="36.0" />
+         </font>
+      </Button>
+      <Label layoutX="194.0" layoutY="209.0" prefHeight="44.0" prefWidth="570.0" style="-fx-background-color: #fafafa;" text="THANK YOU FOR TRUSTING US">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="100.0" layoutY="376.0" prefHeight="44.0" prefWidth="760.0" style="-fx-background-color: #fafafa;" text="[TO COMPLETE THE WORK PRESS              ]">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="717.0" layoutY="376.0" prefHeight="43.0" prefWidth="126.0" text="&lt;EXIT&gt;" textFill="RED">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="36.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
